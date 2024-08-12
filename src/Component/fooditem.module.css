@@ -1,0 +1,57 @@
+.itemContainer {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Polysans, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.itemImg {
+    max-width: 100%;
+    height: auto;
+
+}
+.itemContent {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.itemName {
+    font-size: 15px;
+    font-weight: 600;
+    color: #393939;
+}
+
+.itemButton {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: nowrap;
+    background: #822b39;
+    border: 2px solid #822b39;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', cursive;
+}
+
+.itemButton:hover {
+    color: #822b39;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+    text-decoration: none;
+}
+
+.buttonContainer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
