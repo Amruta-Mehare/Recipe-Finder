@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,3 +11,7 @@ Currently, two official plugins are available:
 =======
 # RecipeFinder
 >>>>>>> 04396f39228eddeeef46856b80edfc1a98a5bd9b
+=======
+# RecipeFinder
+It's RecipeFinder web application that shows food recipe.
+>>>>>>> c584e8ce57566801fe4636ea6f4cbfef9c1ab3ea
