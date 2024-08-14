@@ -10,6 +10,7 @@ import FoodDetails from './Component/FoodDetails';
 import RecipePage from './Component/RecipePage';
 import "./App.css";
 import Footer from './Component/Footer';
+import ContactUs from './Component/ContactUs';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -39,6 +40,7 @@ function App() {
             } 
           />
            <Route path="/about" element={<About />} />
+           <Route path="/contact" element={<ContactUs />} />
           <Route path="/recipe/:foodId" element={<RecipePage />} />
         </Routes>    
       </div>

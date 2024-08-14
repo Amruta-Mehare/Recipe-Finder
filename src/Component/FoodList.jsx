@@ -9,7 +9,6 @@ export default function FoodList({foodData,setFoodId}) {
       {foodData.map((food)=>(
      <FoodItem setFoodId={setFoodId} key={food.id} food={food}/>
     ))}
-    {/* <div className={styles.copyright}>© RecipeFinder 2024 All Rights Reserved.</div> */}
     </div>
   )
 }

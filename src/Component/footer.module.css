@@ -10,3 +10,12 @@
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 0;
 }
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .copyright {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        position: static; 
+        margin-top: 20px; 
+    }
+}

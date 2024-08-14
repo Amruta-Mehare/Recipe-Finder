@@ -3,7 +3,7 @@ import styles from "./search.module.css"
 
 
 const URL="https://api.spoonacular.com/recipes/complexSearch"
-const API_KEY="601b449135ce4a0dba450acfe795c295"
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 export default function Search({foodData,setFoodData}) {
     const [query, setQuery] = useState("")
@@ -24,7 +24,7 @@ export default function Search({foodData,setFoodData}) {
             <input value={query} 
                 onChange={(e) => setQuery(e.target.value)}
                 type="text"  className={styles.input}
-                placeholder='Search Recipe'/>
+                placeholder='Search Recipe Pasta'/>
             <i className={`fa fa-search ${styles.searchIcon}`}></i>
         </div>
     )

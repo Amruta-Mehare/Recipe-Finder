@@ -30,3 +30,25 @@
     font-size: 18px;
     margin-top: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .searchContainer
+    {
+        margin: 20px auto;
+        width: 300px;
+        position:relative;    
+        padding-left: 30px;
+    }
+    .input
+    {
+        width: 60%;
+    }
+    .searchIcon {
+        position: absolute;
+        top: 50%;
+        right: 90px;
+       
+    }
+    
+}

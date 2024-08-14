@@ -1,4 +1,3 @@
-/* src/Component/recipepage.module.css */
 .recipeCard {
     max-width: 600px;
     margin: 20px auto;
@@ -45,4 +44,37 @@
   .recipeInstructions li {
     margin: 10px 0;
   }
+  
+  /* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .recipeCard {
+      padding: 15px;
+      margin: 15px;
+  }
+
+  .recipeName {
+      font-size: 20px;
+      margin-bottom: 8px;
+  }
+
+  .recipeImage {
+      margin-bottom: 8px;
+  }
+
+  .recipeDetails {
+      display: block;
+      text-align: left;
+  }
+
+  .recipeDetails span {
+      display: block;
+      margin-bottom: 8px;
+  }
+
+  .recipeInstructions li {
+      margin: 8px 0;
+      font-size: 14px;
+  }
+}
+
   

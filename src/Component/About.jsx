@@ -23,12 +23,10 @@ export default function About() {
             </ul>
 
             <h2>Development Process</h2>
-            <p>Building Recipe Finder was a rewarding experience. I focused on creating a responsive and user-friendly design. Integrating the Spoonacular API posed some challenges, but it also provided a great opportunity to improve my API handling skills.</p>
+            <p className={styles.last}>Building Recipe Finder was a rewarding experience. I focused on creating a responsive and user-friendly design. Integrating the Spoonacular API posed some challenges, but it also provided a great opportunity to improve my API handling skills.</p>
 
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback, feel free to reach out. You can contact me at <a href="#" 
-            onclick="location.href='mailto:amrutamehare53@gmail.com?subject=Hiring Inquiry'">amrutamehare53@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/amrutamehare/">LinkedIn</a>.</p>
-                {/* <div className={styles.copyright}>© RecipeFinder 2024 All Rights Reserved.</div> */}
+
+
         </div>
     );
 }
