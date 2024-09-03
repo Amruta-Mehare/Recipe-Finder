@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Search from './Component/Search';
 import FoodList from './Component/FoodList';
 import About from './Component/About'
@@ -42,7 +42,7 @@ function App() {
            <Route path="/about" element={<About />} />
            <Route path="/contact" element={<ContactUs />} />
           <Route path="/recipe/:foodId" element={<RecipePage />} />
-        </Routes>    
+          </Routes>    
       </div>
       <Footer/>
     </Router>

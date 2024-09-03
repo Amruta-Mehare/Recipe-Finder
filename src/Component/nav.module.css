@@ -9,20 +9,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; /* For positioning the hamburger menu */
+    position: relative;
 }
-
 
 .recipeFinderName {
     color: rgb(128, 0, 0);
     text-decoration: none;
     font-size: 40px;
-    margin-right: 500px;
-  }
-  
-  .recipeFinderName:hover {
+    margin-right: auto; /* Ensures the title is on the left and the hamburger is on the right */
+}
+
+.recipeFinderName:hover {
     color: #E53935;
-  }
+}
 
 /* Desktop links */
 .links {
@@ -90,7 +89,7 @@
     flex-direction: column;
     cursor: pointer;
     font-size: 24px;
-    margin-right: 20px;
+    margin-left: auto; /* Ensures the hamburger is on the right */
 }
 
 .hamburger .bar {
@@ -124,44 +123,37 @@
         display: flex;
         flex-direction: column;
         position: fixed;
-        margin-top: 70px;
+        margin-top: 82px;
+        margin-left: -12px;
         top: 0;
-        left: 0;
-        width: 280px;
+        width:280px;
         height: 100%;
         background-color: white;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
         z-index: 2;
-        transform: translateX(-100%);
+        transform: translateX(110%); /* Initially hides the menu off-screen to the right */
         transition: transform 0.3s ease;
     }
 
     .links.show {
-        transform: translateX(0);
+        transform: translateX(0); /* Brings the menu into view */
     }
 
     .links .link {
         margin: 20px 0;
-        margin-left: 20px;
+        margin-left: 22px;
         font-size: 21px;
     }
 
-    .closeBtn {
-        font-size: 50px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: rgb(128, 0, 0);
-        margin: 20px;
-    }
-
-    .dropdown
-    {
+    .dropdown {
         margin-top: 16px;
         font-family: 'Poppins', sans-serif;
         font-size: 21px;
     }
+
     .hamburger {
         display: flex;
+        margin-right: 10px; /* Ensures the hamburger stays on the right */
     }
 }
+
