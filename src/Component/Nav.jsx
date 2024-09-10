@@ -23,7 +23,7 @@ export default function Nav() {
         <Link to="/about" className={styles.link} onClick={toggleMenu}>About</Link>
         <Link to="/contact" className={styles.link} onClick={toggleMenu}>Contact</Link>
         <div className={styles.dropdown}>
-          <span>Recipe</span>
+          <span className={styles.RecipeLink}>Recipe</span>
           <div className={styles.dropdownContent}>
             <Link to="/recipe/656329" onClick={toggleMenu}>Pizza</Link>
             <Link to="/recipe/511728" onClick={toggleMenu}>Pasta</Link>
